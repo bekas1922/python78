@@ -16,26 +16,7 @@ import sys
 import requests
 import requests,sys,os,time
 
-def xoshnaw():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  print("\x1b[37;1mID : "+id)
-  try:
-    httpCaht = requests.get("https://github.com/bekas1922/bekas1922/blob/main/list.txt").text
-    if id in httpCaht:
-      print("\033[92mYOUR ID IS ACTIVE!.....")
-      msg = str(os.geteuid())
-      time.sleep(0.3)
-      pass
-    else:
-      print("\x1b[91mIDT ACTIVE NIA LA TELEGRAM NAMA BNERA....")
-      time.sleep(1)
-      sys.exit()
-  except:
-    sys.exit()
-    if name == '__main__':
-    	print(logo)
-    	xoshnaw()
+
 xoshnaw()
 Sayeb = 'bekasUP'
 pss=input("\033[1;37m [~]\033[1;35mENTER PASSWORD :\033[1;33m")
