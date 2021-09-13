@@ -17,7 +17,7 @@ import requests
 import requests,sys,os,time
 
 
-xoshnaw()
+
 Sayeb = 'bekasUP'
 pss=input("\033[1;37m [~]\033[1;35mENTER PASSWORD :\033[1;33m")
 if pss ==Sayeb:
